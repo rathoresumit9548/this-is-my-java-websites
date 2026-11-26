@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>upcasting</title>
+    </head>
+    <h2>
+         abstract  class Animal{
+            <br>
+    abstract void sound();
+     <br>
+ }
+ <br>
+        class dog extends Animal{
+             <br>
+            void sound(){
+                 <br>
+                System.out.println("dog barks");
+                 <br>
+            }
+             <br>
+        }
+         <br>
+        class cat extends Animal{
+             <br>
+            void sound(){
+                 <br>
+                System.out.println("cat maun");
+                 <br>
+            }
+             <br>
+        }
+         <br>
+       public class Main{
+         <br>
+        public static void main(String[] args){
+             <br>
+            Animal p1;
+             <br>         
+            p1 =  new dog();
+             <br>
+            p1.sound();
+             <br>
+            p1 = new cat();
+             <br>
+            p1.sound(); 
+             <br>                                  
+        }
+         <br>
+    }
+    </h2>
+    <body>
+        <script>
+             abstract  class Animal{
+    abstract void sound();
+ }
+
+        class dog extends Animal{
+            void sound(){
+                System.out.println("dog barks");
+            }
+        }
+        class cat extends Animal{
+            void sound(){
+                System.out.println("cat maun");
+            }
+        }
+       public class Main{
+        public static void main(String[] args){
+                                            
+
+            Animal p1;         
+            p1 =  new dog();
+            p1.sound();
+            p1 = new cat();
+            p1.sound();                                   
+        }
+    }
+   </script>
+    </body>
+</html>
