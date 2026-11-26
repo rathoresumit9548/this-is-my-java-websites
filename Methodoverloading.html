@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Methodoverloading</title>
+    </head>
+    <h2>  class car{
+        <br>
+    void add(int a, int b){
+         <br>
+         System.out.println(a + b);
+          <br>
+     }
+      <br>
+     void add(int a, int b, int c){
+         <br>
+         System.out.println(a + b + c);
+          <br>
+     }
+      <br>
+ }
+  <br>
+ public class Ovr{
+     <br>
+     public static void main(String[]args){
+         <br>
+         car c1 = new car();
+          <br>
+        c1.add( 10, 12);
+         <br>
+         c1.add(10,20, 30);   
+          <br>
+          }
+           <br>
+}</h2>
+    
+        
+    <body>
+        <script>
+             class car{
+    void add(int a, int b){
+         System.out.println(a + b);
+     }
+     void add(int a, int b, int c){
+         System.out.println(a + b + c);
+     }
+ }
+ public class Ovr{
+     public static void main(String[]args){
+         car c1 = new car();
+        c1.add( 10, 12);
+         c1.add(10,20, 30);     }
+}
+
+        </script>
+    </body>
+</html>
